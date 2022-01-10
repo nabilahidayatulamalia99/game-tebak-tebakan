@@ -1,4 +1,4 @@
 game
 print ("selamat datang ")
 print("belum ada skor terbaru,ayo main sekarang !! ")
-
+player_name = input("siapa namamu?")
