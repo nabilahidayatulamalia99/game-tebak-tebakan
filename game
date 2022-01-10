@@ -1,1 +1,3 @@
 game
+list = []
+def_show score
