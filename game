@@ -8,3 +8,6 @@ while mau_bermain == "ya":
     tebak =int(input("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut?"))
      kata =["gravitasi"]
      if int(tebak) == "kata":
+        print("bagus sekali!!")
+     if int(tebak) != "kata":
+        print(oh tidak!,tebakanmu kurang tepat.Ayo coba lagi!)
