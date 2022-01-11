@@ -4,3 +4,4 @@ print("belum ada skor terbaru,ayo main sekarang !! ")
 nama_pemain = input("siapa namamu?")
 mau_bermain = input("halo,[],kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(mau_bermain))
 while mau_bermain == "ya":
+print("ayo mulai")
