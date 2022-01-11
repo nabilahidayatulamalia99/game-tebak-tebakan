@@ -5,4 +5,4 @@ nama_pemain = input("siapa namamu?")
 mau_bermain = input("halo,[],kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(mau_bermain))
 while mau_bermain == "ya":
      print("ayo mulai")
-    tebak =int(input("bagaimana bumi berputar?"))
+    tebak =int(input("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut?"))
