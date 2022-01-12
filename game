@@ -14,3 +14,4 @@ while mau_bermain == "ya":
      if (kata) != "answer":
          print("oh tidak!,tebakanmu kurang tepat.Ayo coba lagi!")
 while mau_bermain == "tidak":
+      print("terima kasih!!")
