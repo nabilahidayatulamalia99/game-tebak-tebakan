@@ -2,12 +2,10 @@ game
 print ("selamat datang ")
 print("belum ada skor terbaru,ayo main sekarang !! ")
 nama_pemain = input("siapa namamu?")
-mau_bermain = input("halo,[],kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(mau_bermain))
+mau_bermain = input("halo,{},kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(mau_bermain))
 while mau_bermain == "ya":
      print("ayo mulai")
-    tebak =int(input("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut?"))
-     kata =["gravitasi"]
-     if int(tebak) == "kata":
-        print("bagus sekali!!")
-     if int(tebak) != "kata":
-        print(oh tidak!,tebakanmu kurang tepat.Ayo coba lagi!)
+     print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut?")
+     kata = input("masukkan jawaban kamu :")
+     answer = ["gravitasi"]
+    
