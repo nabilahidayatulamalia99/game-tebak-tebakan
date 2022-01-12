@@ -8,4 +8,8 @@ while mau_bermain == "ya":
      print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut?")
      kata = input("masukkan jawaban kamu :")
      answer = ["gravitasi"]
-    
+   if (kata) == "answer":
+         break
+         print("bagus sekali")
+   if (kata) != "answer":
+         print("oh tidak!,tebakanmu kurang tepat.Ayo coba lagi!")
