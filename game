@@ -21,3 +21,5 @@ while again == "ya":
     print("binatang yang bisa hidup di air dan didarat disebut?")
     a = input("masukkan jawaban kamu :")
     b = ("amfibi")
+    if (a == b):
+        print("keren!!..kamu benar lagi,{} ".format(nama_pemain))
