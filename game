@@ -17,3 +17,5 @@ while mau_bermain == "ya":
          break
     else:
         print("belum sesuai..ayoo coba lagi :)")
+while again == "ya":
+    print("binatang yang bisa hidup di air dan didarat disebut?")
