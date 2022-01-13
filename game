@@ -11,3 +11,6 @@ while mau_bermain == "ya":
      print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut gaya?")
      x = input("masukkan jawaban kamu :")
      y = ("gravitasi")
+     if (x == y):
+         print(" wahh,hebat!!bagus sekali")
+         again = input("ayoo lanjut ke level selanjutnya {},ingin main lagi?(tekan ya/tidak)".format(nama_pemain))
