@@ -14,3 +14,5 @@ while mau_bermain == "ya":
      if (x == y):
          print(" wahh,hebat!!bagus sekali")
          again = input("ayoo lanjut ke level selanjutnya {},ingin main lagi?(tekan ya/tidak)".format(nama_pemain))
+    else:
+        print("belum sesuai")
