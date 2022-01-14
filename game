@@ -25,3 +25,4 @@ while again == "ya":
         print("keren, {} !!..kamu benar ".format(nama_pemain))
         again1 = input("ayoo lanjut ke level 3 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
         break
+    else:
