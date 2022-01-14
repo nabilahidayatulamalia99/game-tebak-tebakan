@@ -43,3 +43,5 @@ while again1 == "ya":
      else:
           print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again1 =="tidak":
+     print("terima kasih")
+     break
