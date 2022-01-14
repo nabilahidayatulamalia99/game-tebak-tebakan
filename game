@@ -37,3 +37,4 @@ while again1 == "ya":
      c = input("masukkan jawaban kamu :")
      d = ("kabisat")
      if (c == d)
+     print("benar, keren sekali!! ")
