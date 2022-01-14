@@ -54,4 +54,8 @@ while again2 == "ya":
         print("kamu sangat keren!!")
         again3 = input("ayoo lanjut ke level 5 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
-
+     else:
+         print("belum tepat,ayo coba lagi")
+while again2 =="tidak":
+    print(terima kasih!!)
+    break
