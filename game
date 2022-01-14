@@ -27,3 +27,5 @@ while again == "ya":
         break
     else:
          print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
+while again == "tidak":
+    print("lanjut nanti yah {}".format(nama_pemain))
