@@ -31,3 +31,5 @@ while again == "tidak":
     print("lanjutkan nanti yah {}".format(nama_pemain))
     print("terima kasih")
     break
+while again1 == "ya":
+    print("level 3 ")
