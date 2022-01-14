@@ -16,10 +16,12 @@ while mau_bermain == "ya":
          again = input("ayoo lanjut ke level selanjutnya {},ingin main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
     else:
-        print("oh tidak jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
+        print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again == "ya":
     print("binatang yang bisa hidup di air dan didarat disebut?")
     a = input("masukkan jawaban kamu :")
     b = ("amfibi")
     if (a == b):
-        print("keren!!{}..kamu benar lagi, ".format(nama_pemain))
+        print("keren, {} !!..kamu benar ".format(nama_pemain))
+        again1 = input("ayoo lanjut ke level 3 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
+        break
