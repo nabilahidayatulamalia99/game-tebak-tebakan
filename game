@@ -39,3 +39,4 @@ while again1 == "ya":
      if (c == d):
          print("benar, keren sekali!! ")
          again2 = input("ayoo lanjut ke level 4 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
+         break
