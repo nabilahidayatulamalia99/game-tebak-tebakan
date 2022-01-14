@@ -52,3 +52,6 @@ while again2 == "ya":
     d = ("matahari")
      if (e == d):
         print("kamu sangat keren!!")
+        again3 = input("ayoo lanjut ke level 5 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
+         break
+
