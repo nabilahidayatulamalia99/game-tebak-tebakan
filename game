@@ -47,3 +47,5 @@ while again1 =="tidak":
      break
 while again2 == "ya":
     print("level 4")
+    print("Pusat peredaran tata surya adalah ?")
+    e = input("masukkan jawaban kamu :")
