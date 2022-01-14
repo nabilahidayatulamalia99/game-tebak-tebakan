@@ -59,3 +59,5 @@ while again2 == "ya":
 while again2 =="tidak":
     print(terima kasih!!)
     break
+while again3 == "ya":
+    print("Alat pembayaran resmi untuk biaya pengiriman melalui pos adalah")
