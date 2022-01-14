@@ -30,3 +30,4 @@ while again == "ya":
 while again == "tidak":
     print("lanjutkan nanti yah {}".format(nama_pemain))
     print("terima kasih")
+    break
