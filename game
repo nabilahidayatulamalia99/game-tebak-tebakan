@@ -50,3 +50,5 @@ while again2 == "ya":
     print("Pusat peredaran tata surya adalah ?")
     e = input("masukkan jawaban kamu :")
     d = ("matahari")
+     if (e == d):
+        print("kamu sangat keren!!")
