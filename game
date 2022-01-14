@@ -45,3 +45,5 @@ while again1 == "ya":
 while again1 =="tidak":
      print("terima kasih")
      break
+while again2 == "ya":
+    print("level 4")
