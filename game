@@ -85,7 +85,11 @@ while again4 == "ya":
         break
     else:
         print("kurang tepat {},coba pikirkan lagi".format(nama_pemain))
-while again5 == "tidak":
+while again4 == "tidak":
     print("terima kasih")
     break
-
+while again5 ="ya":
+    print("level 7")
+    print("menara eifel terletak dikota?")
+    i = input("masukkan jawaban kamu :")
+    j = ("paris")
