@@ -11,13 +11,14 @@ while mau_bermain == "ya":
      print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut gaya?")
      x = input("masukkan jawaban kamu :")
      y = ("gravitasi")
-     if (x == y):
+    if (x == y):
          print(" wahh,hebat!!bagus sekali")
          again = input("ayoo lanjut ke level selanjutnya {},ingin main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
     else:
         print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again == "ya":
+    print("level 2")
     print("binatang yang bisa hidup di air dan didarat disebut?")
     a = input("masukkan jawaban kamu :")
     b = ("amfibi")
@@ -36,7 +37,7 @@ while again1 == "ya":
     print("Tanggal 29 Februari terjadi setiap 4 tahun sekali. Tahun yang ada tanggal tersebut disebut tahun?")
      c = input("masukkan jawaban kamu :")
      d = ("kabisat")
-     if (c == d):
+    if (c == d):
          print("benar, keren sekali!! ")
          again2 = input("ayoo lanjut ke level 4 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
@@ -50,14 +51,22 @@ while again2 == "ya":
     print("Pusat peredaran tata surya adalah ?")
     e = input("masukkan jawaban kamu :")
     d = ("matahari")
-     if (e == d):
+    if (e == d):
         print("kamu sangat keren!!")
         again3 = input("ayoo lanjut ke level 5 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
-     else:
+    else:
          print("belum tepat,ayo coba lagi")
 while again2 =="tidak":
     print(terima kasih!!)
     break
 while again3 == "ya":
-    print("Alat pembayaran resmi untuk biaya pengiriman melalui pos adalah")
+    print("level 5")
+    print("Alat pembayaran resmi untuk biaya pengiriman melalui pos adalah?")
+    f = input("masukkan jawaban kamu :")
+    g = ("prangko")
+    if (f == g):
+        print("keren sekali")
+        again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak")
+         break
+
