@@ -11,11 +11,11 @@ while mau_bermain == "ya":
      print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut gaya?")
      x = input("masukkan jawaban kamu :")
      y = ("gravitasi")
-    if (x == y):
+     if (x == y):
          print(" wahh,hebat!!bagus sekali")
          again = input("ayoo lanjut ke level selanjutnya {},ingin main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
-    else:
+     else:
         print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again == "ya":
     print("level 2")
@@ -35,13 +35,13 @@ while again == "tidak":
 while again1 == "ya":
     print("level 3 ")
     print("Tanggal 29 Februari terjadi setiap 4 tahun sekali. Tahun yang ada tanggal tersebut disebut tahun?")
-     c = input("masukkan jawaban kamu :")
-     d = ("kabisat")
+    c = input("masukkan jawaban kamu :")
+    d = ("kabisat")
     if (c == d):
          print("benar, keren sekali!! ")
          again2 = input("ayoo lanjut ke level 4 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
-     else:
+    else:
           print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again1 =="tidak":
      print("terima kasih")
@@ -54,11 +54,11 @@ while again2 == "ya":
     if (e == d):
         print("kamu sangat keren!!")
         again3 = input("ayoo lanjut ke level 5 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
-         break
+        break
     else:
          print("belum tepat,ayo coba lagi")
 while again2 =="tidak":
-    print(terima kasih!!)
+    print("terima kasih!!")
     break
 while again3 == "ya":
     print("level 5")
@@ -68,5 +68,8 @@ while again3 == "ya":
     if (f == g):
         print("keren sekali")
         again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak")
-         break
+        break
+    else:
+        print("belum tepat,ayo coba lagi")
+
 
