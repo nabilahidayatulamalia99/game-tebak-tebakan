@@ -116,3 +116,17 @@ while again6 == "ya":
 while again6 == "tidak":
     print("terima kasih")
     break
+while again7 == "ya":
+    print("level 9")
+    print("Undang-undang tidak tertulis disebut?")
+    m = input("masukkan jawaban kamu :")
+    n = ("konvensi")
+    if(m == n):
+        print("pintar!")
+        again8 = input("kamu sangat cerdas,ayoo lanjut lagi,(tekan ya/tidak)")
+        break
+    else:
+        print("jawabanmu belum tepat,coba pikirkan baik baik")
+while again7 =="tidak":
+    print("terima kasih")
+    break
