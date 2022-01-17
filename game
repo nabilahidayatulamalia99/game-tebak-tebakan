@@ -71,5 +71,21 @@ while again3 == "ya":
         break
     else:
         print("belum tepat,ayo coba lagi")
-
+while again3 == "tidak":
+    print("terima kasih")
+    break
+while again4 == "ya":
+    print("level 6")
+    print("Arah jam 9 itu sama dengan arah?")
+    h = input ("masukkan jawaban kamu :")
+    g = ("barat")
+    if (h == g):
+        print("bagus sekali")
+        again5 = input("wahh  kamu hebat,ayoo lanjut lagi {},(tekan ya/tidak)".format(nama_pemain))
+        break
+    else:
+        print("kurang tepat {},coba pikirkan lagi".format(nama_pemain))
+while again5 == "tidak":
+    print("terima kasih")
+    break
 
