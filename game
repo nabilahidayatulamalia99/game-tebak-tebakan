@@ -67,7 +67,7 @@ while again3 == "ya":
     g = ("prangko")
     if (f == g):
         print("keren sekali")
-        again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak")
+        again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak)")
         break
     else:
         print("belum tepat,ayo coba lagi")
@@ -95,10 +95,24 @@ while again5 ="ya":
     j = ("paris")
     if (i == j):
         print("keren!!")
-        again6 = input("kamu sangat pintar yah!!")
+        again6 = input("kamu sangat pintar yah!!,ayoo lanjut lagi(tekan ya/tidak)")
         break
     else :
         print("belum tepat {},coba pikirkan lagi".format(nama_pemain))
 while again5 = "tidak":
+    print("terima kasih")
+    break
+while again6 == "ya":
+    print("level 8")
+    print("disebut apakah hewan yang paling kecil?")
+    k = input("masukkan jawaban kamu :")
+    l = ("amuba")
+    if (k == l):
+        print("memang cerdas")
+        again7 = input("ayoo lanjut lagi,(tekan ya/tidak)")
+        break
+    else:
+        print("oh tidak,jawabanmu belum tepat!!pikirkan lagi")
+while again6 == "tidak":
     print("terima kasih")
     break
