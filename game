@@ -93,3 +93,12 @@ while again5 ="ya":
     print("menara eifel terletak dikota?")
     i = input("masukkan jawaban kamu :")
     j = ("paris")
+    if (i == j):
+        print("keren!!")
+        again6 = input("kamu sangat pintar yah!!")
+        break
+    else :
+        print("belum tepat {},coba pikirkan lagi".format(nama_pemain))
+while again5 = "tidak":
+    print("terima kasih")
+    break
