@@ -133,3 +133,15 @@ while again7 == "ya":
 while again7 =="tidak":
     print("terima kasih")
     break
+while again8 = "ya":
+    print("level 10")
+    print("Penduduk asli Australia adalah suku?")
+    break
+    batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+     o = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+     p =("aborigin")
+     if(o == p):
+         print("luar biasa")
+         print("")
+         again9 = input("kamu sangat cerdas,ayoo lanjut lagi,(tekan ya/tidak)")
