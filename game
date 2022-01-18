@@ -9,7 +9,10 @@ while mau_bermain == "tidak":
 while mau_bermain == "ya":
      print("ayo mulai")
      print("salah satu jenis gaya yang dipengaruhi oleh gaya tarik sebuah benda ke pusat benda disebut gaya?")
-     x = input("masukkan jawaban kamu :")
+     break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+     x = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
      y = ("gravitasi")
      if (x == y):
          print(" wahh,hebat!!bagus sekali")
