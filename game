@@ -23,8 +23,11 @@ for percobaan in range(batas_percobaan):
 while again == "ya":
     print("level 2")
     print("binatang yang bisa hidup di air dan didarat disebut?")
-    a = input("masukkan jawaban kamu :")
-    b = ("amfibi")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+     a = 
+     b =("amfibi")
     if (a == b):
         print("keren, {} !!..kamu benar ".format(nama_pemain))
         again1 = input("ayoo lanjut ke level 3 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
@@ -38,8 +41,11 @@ while again == "tidak":
 while again1 == "ya":
     print("level 3 ")
     print("Tanggal 29 Februari terjadi setiap 4 tahun sekali. Tahun yang ada tanggal tersebut disebut tahun?")
-    c = input("masukkan jawaban kamu :")
-    d = ("kabisat")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    c = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    d = ("amfibi")
     if (c == d):
          print("benar, keren sekali!! ")
          again2 = input("ayoo lanjut ke level 4 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
@@ -52,7 +58,10 @@ while again1 =="tidak":
 while again2 == "ya":
     print("level 4")
     print("Pusat peredaran tata surya adalah ?")
-    e = input("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    e =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     d = ("matahari")
     if (e == d):
         print("kamu sangat keren!!")
