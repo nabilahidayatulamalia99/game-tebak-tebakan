@@ -161,11 +161,24 @@ while again8 = "ya":
     print("level 10")
     print("Penduduk asli Australia adalah suku?")
     break
-    batas_percobaan = 5
+batas_percobaan = 5
 for percobaan in range(batas_percobaan):
      o = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
      p =("aborigin")
      if(o == p):
          print("luar biasa")
-         print("")
          again9 = input("kamu sangat cerdas,ayoo lanjut lagi,(tekan ya/tidak)")
+         break
+     else:
+         print("kurang tepat nih,pikirkan lagi")
+while again8 = "tidak"
+    print("terima kasih sudah bermain")
+    break
+while again9 = "ya":
+    print("level 11")
+    print("berapa Jumlah huruf abjad? ")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    q = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    r = 
