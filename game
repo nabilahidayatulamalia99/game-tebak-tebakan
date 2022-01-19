@@ -75,7 +75,10 @@ while again2 =="tidak":
 while again3 == "ya":
     print("level 5")
     print("Alat pembayaran resmi untuk biaya pengiriman melalui pos adalah?")
-    f = input("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    f = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     g = ("prangko")
     if (f == g):
         print("keren sekali")
@@ -89,7 +92,10 @@ while again3 == "tidak":
 while again4 == "ya":
     print("level 6")
     print("Arah jam 9 itu sama dengan arah?")
-    h = input ("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    h = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     g = ("barat")
     if (h == g):
         print("bagus sekali")
@@ -103,7 +109,10 @@ while again4 == "tidak":
 while again5 ="ya":
     print("level 7")
     print("menara eifel terletak dikota?")
-    i = input("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    i = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     j = ("paris")
     if (i == j):
         print("keren!!")
@@ -117,7 +126,10 @@ while again5 = "tidak":
 while again6 == "ya":
     print("level 8")
     print("disebut apakah hewan yang paling kecil?")
-    k = input("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    k = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     l = ("amuba")
     if (k == l):
         print("memang cerdas")
@@ -131,7 +143,10 @@ while again6 == "tidak":
 while again7 == "ya":
     print("level 9")
     print("Undang-undang tidak tertulis disebut?")
-    m = input("masukkan jawaban kamu :")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    m = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     n = ("konvensi")
     if(m == n):
         print("pintar!")
