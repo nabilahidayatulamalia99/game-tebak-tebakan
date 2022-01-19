@@ -181,4 +181,24 @@ while again9 = "ya":
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     q = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    r = 
+    r = ("26")
+    if(q == r):
+        print("bagus sekali")
+        again10 =input("lanjut kelevel selanjutnya,(tekan ya/tidak)")
+        break
+    else:
+        print("yah!!belum tepat,coba lagi ya")
+while again9 = "tidak":
+    print("terima kasih sudah bermain")
+    break
+while again10 = "ya":
+    print("level 11")
+    print("benua yang disebut dengan benua beku adalah?")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    s = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    t = ("antartika")
+
+    
+
