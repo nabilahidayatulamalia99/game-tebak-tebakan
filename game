@@ -205,3 +205,7 @@ for percobaan in range(batas_percobaan):
         break
     else:
         print("belum tepat!!coba kamu pikirkan lagi")
+while again10 = "tidak":
+    print("terima kasih sudah bermain {}".format(nama_pemain))
+    break
+while again11 ="ya":
