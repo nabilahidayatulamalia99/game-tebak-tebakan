@@ -216,3 +216,11 @@ batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     u = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     v = berlian
+    if (u == v):
+        print("sempurna")
+        again12 = input("ayoo lanjut pertanyaan selanjutnya,(tekan ya/tidak)")
+        break
+    else:
+        print(kurang tepat!! coba kamu pikirkan sekali lagi)
+while again11 == "tidak":
+    print("terima kasih sudah bermain")
