@@ -199,6 +199,9 @@ batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     s = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     t = ("antartika")
-
-    
-
+    if(s == t):
+        print("hebat")
+        again11 = input("ayoo lanjut {} (tekan ya/tidak)".format(nama_pemain))
+        break
+    else:
+        print("belum tepat!!coba kamu pikirkan lagi")
