@@ -192,7 +192,7 @@ while again9 = "tidak":
     print("terima kasih sudah bermain")
     break
 while again10 = "ya":
-    print("level 11")
+    print("level 12")
     print("benua yang disebut dengan benua beku adalah?")
     break
 batas_percobaan = 5
@@ -209,3 +209,10 @@ while again10 = "tidak":
     print("terima kasih sudah bermain {}".format(nama_pemain))
     break
 while again11 ="ya":
+    print("level 13")
+    print("apakah Jenis batuan terkeras?")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    u = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    v = berlian
