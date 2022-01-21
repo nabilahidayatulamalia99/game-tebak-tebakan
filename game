@@ -241,3 +241,13 @@ for percobaan in range(batas_percobaan):
         print("kurang tepat")
 while again 12 =="tidak":
     print("terima kasih sudah bermain")
+while again13 =="ya":
+    print("level 14")
+    print(" Ledakan bintang di galaksi disebut ")
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    y = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    z = ("Supernova")
+    if(y == z):
+        print("expert!!")
+        again14
