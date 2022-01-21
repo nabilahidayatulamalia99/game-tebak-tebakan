@@ -224,3 +224,20 @@ for percobaan in range(batas_percobaan):
         print(kurang tepat!! coba kamu pikirkan sekali lagi)
 while again11 == "tidak":
     print("terima kasih sudah bermain")
+    break
+while again12 =="ya":
+    print("level 14")
+    print("Apakah Bahasa Inggris dari kapal selam ?")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    w =  input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    x = ("submarine")
+    if(w == x):
+        print("luar biasa")
+        again13 = input("lanjut lagi yuk!!(tekan ya/tidak)")
+        break
+    else:
+        print("kurang tepat")
+while again 12 =="tidak":
+    print("terima kasih sudah bermain")
