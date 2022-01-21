@@ -250,4 +250,10 @@ for percobaan in range(batas_percobaan):
     z = ("Supernova")
     if(y == z):
         print("expert!!")
-        again14
+        again14 =input("lanjut ke level berikutnya(tekan ya/tidak)")
+        break
+    else:
+        print("belum tepat,pikirkan sekali lagi")
+while again13 == "tidak":
+    print("terima kasih sudah bermain ;)")
+    break
