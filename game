@@ -26,7 +26,7 @@ while again == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-     a = 
+     a = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
      b =("amfibi")
     if (a == b):
         print("keren, {} !!..kamu benar ".format(nama_pemain))
@@ -208,7 +208,7 @@ for percobaan in range(batas_percobaan):
 while again10 = "tidak":
     print("terima kasih sudah bermain {}".format(nama_pemain))
     break
-while again11 ="ya":
+while again11 =="ya":
     print("level 13")
     print("apakah Jenis batuan terkeras?")
     break
@@ -221,7 +221,7 @@ for percobaan in range(batas_percobaan):
         again12 = input("ayoo lanjut pertanyaan selanjutnya,(tekan ya/tidak)")
         break
     else:
-        print(kurang tepat!! coba kamu pikirkan sekali lagi)
+        print("kurang tepat!! coba kamu pikirkan sekali lagi")
 while again11 == "tidak":
     print("terima kasih sudah bermain")
     break
