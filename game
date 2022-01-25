@@ -242,7 +242,7 @@ for percobaan in range(batas_percobaan):
 while again12 =="tidak":
     print("terima kasih sudah bermain")
 while again13 =="ya":
-    print("level 14")
+    print("level 15")
     print(" Ledakan bintang di galaksi disebut ")
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
@@ -257,3 +257,6 @@ for percobaan in range(batas_percobaan):
 while again13 == "tidak":
     print("terima kasih sudah bermain ;)")
     break
+while again14 == "ya":
+    print("level 16")
+    print("Simbol "∅" dalam matematika berarti")
