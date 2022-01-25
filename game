@@ -28,11 +28,11 @@ batas_percobaan = 5
 for percobaan in range(batas_percobaan):
      a = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
      b =("amfibi")
-    if (a == b):
+     if (a == b):
         print("keren, {} !!..kamu benar ".format(nama_pemain))
         again1 = input("ayoo lanjut ke level 3 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
         break
-    else:
+     else:
          print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again == "tidak":
     print("lanjutkan nanti yah {}".format(nama_pemain))
@@ -106,7 +106,7 @@ for percobaan in range(batas_percobaan):
 while again4 == "tidak":
     print("terima kasih")
     break
-while again5 ="ya":
+while again5 =="ya":
     print("level 7")
     print("menara eifel terletak dikota?")
     break
@@ -120,7 +120,7 @@ for percobaan in range(batas_percobaan):
         break
     else :
         print("belum tepat {},coba pikirkan lagi".format(nama_pemain))
-while again5 = "tidak":
+while again5 == "tidak":
     print("terima kasih")
     break
 while again6 == "ya":
@@ -157,7 +157,7 @@ for percobaan in range(batas_percobaan):
 while again7 =="tidak":
     print("terima kasih")
     break
-while again8 = "ya":
+while again8 == "ya":
     print("level 10")
     print("Penduduk asli Australia adalah suku?")
     break
@@ -171,10 +171,10 @@ for percobaan in range(batas_percobaan):
          break
      else:
          print("kurang tepat nih,pikirkan lagi")
-while again8 = "tidak"
+while again8 == "tidak":
     print("terima kasih sudah bermain")
     break
-while again9 = "ya":
+while again9 == "ya":
     print("level 11")
     print("berapa Jumlah huruf abjad? ")
     break
@@ -188,10 +188,10 @@ for percobaan in range(batas_percobaan):
         break
     else:
         print("yah!!belum tepat,coba lagi ya")
-while again9 = "tidak":
+while again9 == "tidak":
     print("terima kasih sudah bermain")
     break
-while again10 = "ya":
+while again10 == "ya":
     print("level 12")
     print("benua yang disebut dengan benua beku adalah?")
     break
@@ -205,7 +205,7 @@ for percobaan in range(batas_percobaan):
         break
     else:
         print("belum tepat!!coba kamu pikirkan lagi")
-while again10 = "tidak":
+while again10 == "tidak":
     print("terima kasih sudah bermain {}".format(nama_pemain))
     break
 while again11 =="ya":
@@ -239,7 +239,7 @@ for percobaan in range(batas_percobaan):
         break
     else:
         print("kurang tepat")
-while again 12 =="tidak":
+while again12 =="tidak":
     print("terima kasih sudah bermain")
 while again13 =="ya":
     print("level 14")
