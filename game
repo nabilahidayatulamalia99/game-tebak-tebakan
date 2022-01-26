@@ -266,3 +266,8 @@ for percobaan in range(batas_percobaan):
     ba = ("himpunan kosong")
     if(ab == ba):
         print("bagus sekali")
+        again15 =input("lanjut kelvel berikutnya(tekan ya/tidak)")
+        break
+    else:
+        print("belum tepat,pikirkan lagi")
+while again15 =="ya":
