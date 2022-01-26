@@ -270,6 +270,10 @@ for percobaan in range(batas_percobaan):
         break
     else:
         print("belum tepat,pikirkan lagi")
+while again14 == "tidak":
+    print("terima kasih sudah bermain")
+    break
 while again15 =="ya":
     print("level 17")
     print("")
+    break
