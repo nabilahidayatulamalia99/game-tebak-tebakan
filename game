@@ -271,3 +271,5 @@ for percobaan in range(batas_percobaan):
     else:
         print("belum tepat,pikirkan lagi")
 while again15 =="ya":
+    print("level 17")
+    print("")
