@@ -244,6 +244,7 @@ while again12 =="tidak":
 while again13 =="ya":
     print("level 15")
     print(" Ledakan bintang di galaksi disebut ")
+    break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     y = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
@@ -260,6 +261,7 @@ while again13 == "tidak":
 while again14 == "ya":
     print("level 16")
     print("Simbol "∅" dalam matematika berarti")
+    break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     ab = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
@@ -275,5 +277,14 @@ while again14 == "tidak":
     break
 while again15 =="ya":
     print("level 17")
-    print("")
+    print("Logam apa yang ditemukan oleh Hans Christian Oersted pada tahun 1825")
     break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    cd =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    dc =("aluminium")
+    if(cd == dc):
+        print("excellent!!")
+        again16 =input("ayoo {} lanjut kelevel selanjutnya".format(nama_pemain))
+    else:
+        print("belum tepat coba lagi")
