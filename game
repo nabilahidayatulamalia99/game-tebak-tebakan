@@ -288,4 +288,4 @@ for percobaan in range(batas_percobaan):
         again16 =input("ayoo {} lanjut kelevel selanjutnya".format(nama_pemain))
     else:
         print("belum tepat coba lagi")
-while again15
+while again15 == "tidak":
