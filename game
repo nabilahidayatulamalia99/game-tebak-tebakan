@@ -289,4 +289,5 @@ for percobaan in range(batas_percobaan):
     else:
         print("belum tepat coba lagi")
 while again15 == "tidak":
-    print
+    print("terima kasih sudah bermain")
+    break
