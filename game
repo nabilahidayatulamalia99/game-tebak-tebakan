@@ -285,7 +285,7 @@ for percobaan in range(batas_percobaan):
     dc =("aluminium")
     if(cd == dc):
         print("excellent!!")
-        again16 =input("ayoo {} lanjut kelevel selanjutnya".format(nama_pemain))
+        again16 =input("ayoo {} lanjut kelevel selanjutnya(tekan ya/tidak)".format(nama_pemain))
     else:
         print("belum tepat coba lagi")
 while again15 == "tidak":
@@ -299,3 +299,6 @@ batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     ef =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     fe =("1945")
+    if(ef == fe):
+        print("terbaik!!")
+        again17 = input("ayoo lanjut kelevel selanjutnya")
