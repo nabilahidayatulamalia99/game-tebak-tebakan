@@ -302,4 +302,5 @@ for percobaan in range(batas_percobaan):
     if(ef == fe):
         print("terbaik!!")
         again17 = input("ayoo lanjut kelevel selanjutnya(tekan ya/tidak)")
-    else
+    else:
+        print("mmaaf belum tepat ayoo coba lagi")
