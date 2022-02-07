@@ -304,3 +304,5 @@ for percobaan in range(batas_percobaan):
         again17 = input("ayoo lanjut kelevel selanjutnya(tekan ya/tidak)")
     else:
         print("mmaaf belum tepat ayoo coba lagi")
+while again 16 =="tidak":
+    print("terima kasih sudah bermain")
