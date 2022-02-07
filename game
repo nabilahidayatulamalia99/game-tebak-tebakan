@@ -308,3 +308,6 @@ while again 16 =="tidak":
     print("terima kasih sudah bermain")
     break
 while again17 =="yes":
+    batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    ef =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
