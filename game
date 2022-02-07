@@ -306,3 +306,5 @@ for percobaan in range(batas_percobaan):
         print("mmaaf belum tepat ayoo coba lagi")
 while again 16 =="tidak":
     print("terima kasih sudah bermain")
+    break
+while again17 =="yes":
