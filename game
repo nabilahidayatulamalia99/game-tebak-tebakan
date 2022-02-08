@@ -319,3 +319,5 @@ for percobaan in range(batas_percobaan):
         again18
     else:
         print("maaf jawaban kamu belum tepat!!ayoo coba lagi").
+while again17 =="tidak":
+    print
