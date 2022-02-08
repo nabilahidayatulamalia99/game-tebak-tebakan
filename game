@@ -317,4 +317,4 @@ for percobaan in range(batas_percobaan):
     if(gh == hg):
         print("bagus sekali!!!")
     else:
-        print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
+        print("maaf jawaban kamu belum tepat!!ayoo coba lagi").
