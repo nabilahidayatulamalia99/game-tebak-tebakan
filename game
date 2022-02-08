@@ -320,4 +320,4 @@ for percobaan in range(batas_percobaan):
     else:
         print("maaf jawaban kamu belum tepat!!ayoo coba lagi").
 while again17 =="tidak":
-    print
+    print("terima kasih sudah bermain")
