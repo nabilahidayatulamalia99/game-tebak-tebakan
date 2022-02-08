@@ -315,4 +315,6 @@ for percobaan in range(batas_percobaan):
     gh =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     hg =
     if(gh == hg):
-        print
+        print("bagus sekali!!!")
+    else:
+        print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
