@@ -311,7 +311,7 @@ while again17 =="yes":
     print("level 20")
     print(" Kapan proklamasi kemerdekaan Indonesia dilaksanakan? ")
     break
-    batas_percobaan = 5
+batas_percobaan = 5
 for percobaan in range(batas_percobaan):
     gh =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     hg = ("17 agustus 1945")
