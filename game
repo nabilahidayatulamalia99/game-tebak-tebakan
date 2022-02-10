@@ -313,7 +313,7 @@ while again17 =="yes":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    gh =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    gh = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     hg = ("17 agustus 1945")
     if(gh == hg):
         print("bagus sekali!!!")
