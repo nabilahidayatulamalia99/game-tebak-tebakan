@@ -303,3 +303,31 @@ for percobaan in range(batas_percobaan):
         print("terbaik!!")
         again17 = input("ayoo lanjut kelevel selanjutnya(tekan ya/tidak)")
     else
+    print("maaf belum tepat!!ayoo coba lagi")
+while again16 == "tidak":
+    print("terima kasih sudah bermain")
+while again17 =="ya":
+    print("level 19")
+    print("siapakah penemu lampu?")
+    break
+batas percobaan = 5
+for percobaan in range(batas_percobaan):
+    gh =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    if( gh == hg):
+        print("keren sekali")
+        again18 = input("ayooo ;ajut ke level selanjuuutnya")
+    else:
+        prnt("maaf jawaban kamu belum tepat coba pikirkan sekali lagi")
+while again17 =="tidak":
+    print("terima kasih sudah bermain")
+    break
+while again18 == "ya":
+    print(level 20)
+    print("")
+    break
+batas percobaan = 5
+for percobaan in range(batas_percobaan):
+    ij =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    ji =("12")
+    if( ij == ji):
+        print("luar biasa!!!")
