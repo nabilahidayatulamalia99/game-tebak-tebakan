@@ -220,7 +220,7 @@ for percobaan in range(batas_percobaan):
         print("sempurna")
         again12 = input("ayoo lanjut pertanyaan selanjutnya,(tekan ya/tidak)")
         break
-     else:
+    else:
         print("kurang tepat!! coba kamu pikirkan sekali lagi")
 while again11 == "tidak":
     print("terima kasih sudah bermain")
