@@ -260,7 +260,7 @@ while again13 == "tidak":
     break
 while again14 == "ya":
     print("level 16")
-    print("Simbol "∅" dalam matematika berarti")
+    print("Simbol ∅ dalam matematika berarti")
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
