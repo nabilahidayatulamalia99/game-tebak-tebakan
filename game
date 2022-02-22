@@ -101,7 +101,7 @@ for percobaan in range(batas_percobaan):
         print("bagus sekali")
         again5 = input("wahh  kamu hebat,ayoo lanjut lagi {},(tekan ya/tidak)".format(nama_pemain))
         break
-    else:
+     else:
         print("kurang tepat {},coba pikirkan lagi".format(nama_pemain))
 while again4 == "tidak":
     print("terima kasih")
@@ -186,7 +186,7 @@ for percobaan in range(batas_percobaan):
         print("bagus sekali")
         again10 =input("lanjut kelevel selanjutnya,(tekan ya/tidak)")
         break
-    else:
+     else:
         print("yah!!belum tepat,coba lagi ya")
 while again9 == "tidak":
     print("terima kasih sudah bermain")
@@ -304,7 +304,7 @@ for percobaan in range(batas_percobaan):
         again17 = input("ayoo lanjut kelevel selanjutnya!!(tekan ya/tidak)")
     else:
         print("mmaaf belum tepat ayoo coba lagi")
-while again 16 =="tidak":
+while again16 =="tidak":
     print("terima kasih sudah bermain")
     break
 while again17 =="yes":
