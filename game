@@ -9,6 +9,7 @@ elif jam >=17 and jam <19:
 else:
     print("selamat malam")
 print("belum ada skor terbaru,ayo main sekarang !! ")
+nama pemain = input("siapa namamu?")
 mau_bermain = input("halo,{},kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(nama_pemain))
 while mau_bermain == "tidak":
     print("terima kasih!!")
