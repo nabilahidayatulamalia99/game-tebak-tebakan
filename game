@@ -3,9 +3,9 @@ nama_pemain = input("siapa namamu?")
 jam = 13
 if jam >= 5 and jam < 12 :
     print("selamat pagi,{}!".format(nama_pemain)
-elif jam >= 12 and jam <= 17:
+elif jam >= 12 and jam <= 17 :
     print("selamat siang,{}!".format(nama_pemain))
-elif jam >=17 and jam <19:
+elif jam >=17 and jam <19 :
     print("selamatore,{}!".format(nama_pemain)
 else:
     print("selamat malam")
