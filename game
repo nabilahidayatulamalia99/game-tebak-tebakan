@@ -1,7 +1,15 @@
-game
-print ("selamat datang ")
-print("belum ada skor terbaru,ayo main sekarang !! ")
+#game
 nama_pemain = input("siapa namamu?")
+jam = 13
+if jam >= 5 and jam < 12 :
+    print("selamat pagi,{}!".format(nama_pemain)
+elif jam >= 12 and jam <= 17 :
+    print("selamat siang,{}!".format(nama_pemain))
+elif jam >=17 and jam <19 :
+    print("selamatore,{}!".format(nama_pemain)
+else:
+    print("selamat malam")
+print("belum ada skor terbaru,ayo main sekarang !! ")
 mau_bermain = input("halo,{},kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(nama_pemain))
 while mau_bermain == "tidak":
     print("terima kasih!!")
@@ -12,7 +20,7 @@ while mau_bermain == "ya":
      break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-     x = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+     x = input(f'\n Masukkan jawaban: ')
      y = ("gravitasi")
      if (x == y):
          print(" wahh,hebat!!bagus sekali")
@@ -26,7 +34,7 @@ while again == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-     a = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+     a = input(f'\n Masukkan jawaban: ')
      b =("amfibi")
      if (a == b):
         print("keren, {} !!..kamu benar ".format(nama_pemain))
@@ -44,13 +52,13 @@ while again1 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    c = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    d = ("kabisat")
-    if (c == d):
+     c = input(f'\n Masukkan jawaban: ')
+     d = ("kabisat")
+     if (c == d):
          print("benar, keren sekali!! ")
          again2 = input("ayoo lanjut ke level 4 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
          break
-    else:
+     else:
           print("oh tidak!! jawabanmu belum tepat {}..ayoo coba lagi :)".format(nama_pemain))
 while again1 =="tidak":
      print("terima kasih")
@@ -61,13 +69,13 @@ while again2 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    e =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    d = ("matahari")
-    if (e == d):
+     e =input(f'\n Masukkan jawaban: ')
+     d = ("matahari")
+     if (e == d):
         print("kamu sangat keren!!")
         again3 = input("ayoo lanjut ke level 5 {}, main lagi?(tekan ya/tidak)".format(nama_pemain))
         break
-    else:
+     else:
          print("belum tepat,ayo coba lagi")
 while again2 =="tidak":
     print("terima kasih!!")
@@ -84,7 +92,7 @@ for percobaan in range(batas_percobaan):
         print("kemenangan terbesar adlah mampu megalahka diri sdiri )
         again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak)")
         break
-    else:
+     else:
         print("belum tepat,ayo coba lagi")
 while again3 == "tidak":
     print("terima kasih")
@@ -95,13 +103,13 @@ while again4 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    h = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    g = ("barat")
-    if (h == g):
+     h = input(f'\n Masukkan jawaban: ')
+     g = ("barat")
+     if (h == g):
         print("bagus sekali")
         again5 = input("wahh  kamu hebat,ayoo lanjut lagi {},(tekan ya/tidak)".format(nama_pemain))
         break
-    else:
+     else:
         print("kurang tepat {},coba pikirkan lagi".format(nama_pemain))
 while again4 == "tidak":
     print("terima kasih")
@@ -112,13 +120,13 @@ while again5 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    i = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    j = ("paris")
-    if (i == j):
+     i = input(f'\n Masukkan jawaban: ')
+     j = ("paris")
+     if (i == j):
         print("keren!!")
         again6 = input("kamu sangat pintar yah!!,ayoo lanjut lagi(tekan ya/tidak)")
         break
-    else :
+     else :
         print("belum tepat {},coba pikirkan lagi".format(nama_pemain))
 while again5 == "tidak":
     print("terima kasih")
@@ -129,13 +137,13 @@ while again6 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    k = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    l = ("amuba")
-    if (k == l):
+     k = input(f'\n Masukkan jawaban: ')
+     l = ("amuba")
+     if (k == l):
         print("memang cerdas")
         again7 = input("ayoo lanjut lagi,(tekan ya/tidak)")
         break
-    else:
+     else:
         print("oh tidak,jawabanmu belum tepat!!pikirkan lagi")
 while again6 == "tidak":
     print("terima kasih")
@@ -146,13 +154,13 @@ while again7 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    m = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    n = ("konvensi")
-    if(m == n):
+     m = input(f'\n Masukkan jawaban: ')
+     n = ("konvensi")
+     if(m == n):
         print("pintar!")
         again8 = input("kamu sangat cerdas,ayoo lanjut lagi,(tekan ya/tidak)")
         break
-    else:
+     else:
         print("jawabanmu belum tepat,coba pikirkan baik baik")
 while again7 =="tidak":
     print("terima kasih")
@@ -163,7 +171,7 @@ while again8 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-     o = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+     o = input(f'\n Masukkan jawaban: ')
      p =("aborigin")
      if(o == p):
          print("semua eluag keberhasila selalu dihatui oleh kemugkian gagal")
@@ -180,13 +188,13 @@ while again9 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    q = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    r = ("26")
-    if(q == r):
+     q = input(f'\n Masukkan jawaban: ')
+     r = ("26")
+     if(q == r):
         print("bagus sekali")
         again10 =input("lanjut kelevel selanjutnya,(tekan ya/tidak)")
         break
-    else:
+     else:
         print("yah!!belum tepat,coba lagi ya")
 while again9 == "tidak":
     print("terima kasih sudah bermain")
@@ -197,13 +205,13 @@ while again10 == "ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    s = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    t = ("antartika")
-    if(s == t):
+     s = input(f'\n Masukkan jawaban: ')
+     t = ("antartika")
+     if(s == t):
         print("hebat")
         again11 = input("ayoo lanjut {} (tekan ya/tidak)".format(nama_pemain))
         break
-    else:
+     else:
         print("belum tepat!!coba kamu pikirkan lagi")
 while again10 == "tidak":
     print("terima kasih sudah bermain {}".format(nama_pemain))
@@ -214,8 +222,8 @@ while again11 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    u = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
-    v = berlian
+    u = input(f'\n Masukkan jawaban: ')
+    v = ("berlian")
     if (u == v):
         print("sempurna")
         again12 = input("ayoo lanjut pertanyaan selanjutnya,(tekan ya/tidak)")
@@ -231,7 +239,7 @@ while again12 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    w =  input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    w =  input(f'\n Masukkan jawaban: ')
     x = ("submarine")
     if(w == x):
         print("luar biasa")
@@ -247,7 +255,7 @@ while again13 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    y = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    y = input(f'\n Masukkan jawaban: ')
     z = ("Supernova")
     if(y == z):
         print("ika tidak ada yag diperjuangkan,maka tidak akan ada hasil yang dicapai")
@@ -260,11 +268,11 @@ while again13 == "tidak":
     break
 while again14 == "ya":
     print("level 16")
-    print("Simbol "∅" dalam matematika berarti")
+    print("Simbol ∅ dalam matematika berarti")
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    ab = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    ab = input(f'\n Masukkan jawaban: ')
     ba = ("himpunan kosong")
     if(ab == ba):
         print("bagus sekali")
@@ -281,13 +289,13 @@ while again15 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    cd =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    cd =input(f'\n Masukkan jawaban: ')
     dc =("aluminium")
     if(cd == dc):
         print("excellent!!")
-        again16 =input("ayoo {} lanjut kelevel selanjutnya".format(nama_pemain))
+        again16 =input("ayoo {} lanjut kelevel selanjutnya(tekan ya/tidak)".format(nama_pemain))
     else:
-        print("belum tepat coba lagi")
+        print("belum tepat coba kamu pikir sekali lagi")
 while again15 == "tidak":
     print("terima kasih sudah bermain")
     break
@@ -297,5 +305,29 @@ while again16 =="ya":
     break
 batas_percobaan = 5
 for percobaan in range(batas_percobaan):
-    ef =input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
+    ef =input(f'\n Masukkan jawaban: ')
     fe =("1945")
+    if(ef == fe):
+        print("terbaik!!")
+        again17 = input("ayoo lanjut kelevel selanjutnya!!(tekan ya/tidak)")
+    else:
+        print("mmaaf belum tepat ayoo coba lagi")
+while again16 =="tidak":
+    print("terima kasih sudah bermain")
+    break
+while again17 =="yes":
+    print("level 20")
+    print(" Kapan proklamasi kemerdekaan Indonesia dilaksanakan? ")
+    break
+batas_percobaan = 5
+for percobaan in range(batas_percobaan):
+    gh = input(f'\n Masukkan jawaban: ')
+    hg = ("17 agustus 1945")
+    if(gh == hg):
+        print("bagus sekali!!!")
+        again18 = input("ayoo lanjut kelevel selanjutnya(tekan ya/tidak)")
+    else:
+        print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
+while again17 =="tidak":
+    print("terima kasih sudah bermain")
+    break
