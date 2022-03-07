@@ -81,7 +81,7 @@ for percobaan in range(batas_percobaan):
     f = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     g = ("prangko")
     if (f == g):
-        print("keren sekali")
+        print("kemenangan terbesar adlah mampu megalahka diri sdiri )
         again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak)")
         break
     else:
@@ -166,7 +166,7 @@ for percobaan in range(batas_percobaan):
      o = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
      p =("aborigin")
      if(o == p):
-         print("luar biasa")
+         print("semua eluag keberhasila selalu dihatui oleh kemugkian gagal")
          again9 = input("kamu sangat cerdas,ayoo lanjut lagi,(tekan ya/tidak)")
          break
      else:
@@ -250,7 +250,7 @@ for percobaan in range(batas_percobaan):
     y = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     z = ("Supernova")
     if(y == z):
-        print("expert!!")
+        print("ika tidak ada yag diperjuangkan,maka tidak akan ada hasil yang dicapai")
         again14 =input("lanjut ke level berikutnya(tekan ya/tidak)")
         break
     else:
