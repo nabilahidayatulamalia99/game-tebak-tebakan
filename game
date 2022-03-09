@@ -89,7 +89,7 @@ for percobaan in range(batas_percobaan):
     f = input(f'\n[Percobaan {percobaan + 1}] Masukkan jawaban: ')
     g = ("prangko")
     if (f == g):
-        print("kemenangan terbesar adalah mampu mengalahkan diri sdiri )
+        print("kemenangan terbesar adalah mampu mengalahkan diri sendiri" )
         again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak)")
         break
      else:
