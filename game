@@ -92,7 +92,7 @@ for percobaan in range(batas_percobaan):
         print("kemenangan terbesar adalah mampu mengalahkan diri sendiri" )
         again4 = input("ayoo lanjut ke level 6,main lagi?(tekan ya/tidak)")
         break
-     else:
+    else:
         print("belum tepat,ayo coba lagi")
 while again3 == "tidak":
     print("terima kasih")
