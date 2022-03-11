@@ -1,6 +1,6 @@
 #game
 import datetime
-x =datetime.now()
+x =datetime.datetime.now()
 print(x.strftime("%x"))
 nama_pemain = input("siapa namamu?")
 jam = 13
