@@ -8,7 +8,7 @@ elif jam >= 12 and jam <= 17 :
 elif jam >=17 and jam <19 :
     print("selamatore,{}!".format(nama_pemain))
 else:
-    print("selamat malam,{}!".format(nama_pemain)
+    print("selamat malam,{}!".format(nama_pemain))
 print("belum ada skor terbaru,ayo main sekarang !! ")
 mau_bermain = input("halo,{},kamu mau main game tebak-tebakan?(tekan ya/tidak)".format(nama_pemain))
 while mau_bermain == "tidak":
@@ -324,7 +324,7 @@ for percobaan in range(batas_percobaan):
     gh = input(f'\n Masukkan jawaban: ')
     hg = ("17 agustus 1945")
     if(gh == hg):
-        print("bagus sekali!!!")
+        print("orang yang bersungguh sungguh dan yang tidak,perbedaannya akan terlihat")
         again18 = input("ayoo lanjut kelevel selanjutnya(tekan ya/tidak)")
     else:
         print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
