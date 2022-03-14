@@ -344,3 +344,9 @@ for percobaan in range(batas_percobaan):
     ji = ("uganda")
     if(ij == ji):
         print("Amazing")
+        print("terima kasih sudah bermain sejauh ini...sampai jumpa di season berikutnya:))
+    else:
+        print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
+while again17 =="tidak":
+    print("terima kasih")
+    break
