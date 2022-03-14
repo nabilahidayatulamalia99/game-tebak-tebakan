@@ -343,3 +343,4 @@ for percobaan in range(batas_percobaan):
     ij = input(f'\n Masukkan jawaban: ')
     ji = ("uganda")
     if(ij == ji):
+        print(Amazing")
