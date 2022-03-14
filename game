@@ -335,3 +335,7 @@ for percobaan in range(batas_percobaan):
 while again17 =="tidak":
     print("terima kasih sudah bermain")
     break
+while again18 =="ya":
+    print("level 21")
+    print("negara yang punya julukan mutiara afrika")
+    break
