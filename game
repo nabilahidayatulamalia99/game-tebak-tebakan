@@ -2,6 +2,7 @@
 import datetime
 x =datetime.datetime.now()
 print(x.strftime("%x"))
+print(x.strftme("%A"))
 nama_pemain = input("siapa namamu?")
 jam = 13
 if jam >= 5 and jam < 12 :
