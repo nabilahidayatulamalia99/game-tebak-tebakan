@@ -2,7 +2,7 @@
 import datetime
 x =datetime.datetime.now()
 print(x.strftime("%x"))
-print(x.strftme("%A"))
+print(x.strftime("%A"))
 nama_pemain = input("siapa namamu?")
 jam = 13
 if jam >= 5 and jam < 12 :
@@ -334,4 +334,8 @@ for percobaan in range(batas_percobaan):
         print("maaf jawaban kamu belum tepat!!ayoo coba lagi")
 while again17 =="tidak":
     print("terima kasih sudah bermain")
+    break
+while again18 =="ya":
+    print("level 21")
+    print("negara yang punya julukan mutiara afrika")
     break
