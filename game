@@ -339,3 +339,7 @@ while again18 =="ya":
     print("level 21")
     print("negara yang punya julukan mutiara afrika")
     break
+for percobaan in range(batas_percobaan):
+    ij = input(f'\n Masukkan jawaban: ')
+    ji = ("uganda")
+    if(ij == ji):
